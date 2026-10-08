@@ -1,3 +1,41 @@
 body {
-    background-color: rgb(181, 134, 224);
+    background-color: rgb(103, 97, 109);
 }
+
+ul{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 0px;
+    left: 650px;
+}
+
+.main {
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    border-radius: 500px;
+}
+
+.saudacao {
+    font-size: 50px;
+    margin-top: 300px;
+    margin-left: 400px;
+    margin-bottom: 0px;
+}
+
+.psaudacao {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.botaof {
+    font-size: 30px;
+    margin-left: 400px;
+}
+
