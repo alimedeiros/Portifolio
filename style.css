@@ -1,5 +1,6 @@
 body {
     background-color: rgb(103, 97, 109);
+    display: flex;
 }
 
 ul{
@@ -14,10 +15,16 @@ ul{
     position: relative;
 }
 
-.container img {
+.container {
+    display: flex;
     position: absolute;
     top: 200px;
     left: 1000px;
+    
+}
+
+img {
+    flex: auto;
     border-radius: 500px;
 }
 
